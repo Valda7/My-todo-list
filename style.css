@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+   background-color: #0e0e0e;
+   display:block;
+   height: 100%;
+   width: 50%;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% auto;
+    background-color: burlywood;
+    width: 25%;
+    height: 120%;
+    padding: 20px;
+  }
+  
+  .title{
+    font-size: 50px;
+    color: green;
+    margin-top: 40px;
+  }
+  
+  #display-area{
+     display: flex;
+   flex-direction: column;
+    width: 98%;
+    height: auto;
+    margin-top: 20px;
+  } 
+  
+  .row-container{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  #text-box{
+    padding: 6px 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  
+  #add-butn{
+    background-color: #989895;
+    width: 35px;
+  margin-left: 4px;
+  padding: 4px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  }
+  
+  .lists-holder{
+      display: flex;
+    width: 98%;
+    align-items: center;
+    border: 1px solid #dfdfdd;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .text{
+  font-size: 21px;
+  margin-right: auto;
+  padding: 0 4px;
+  width: 80%;
+  }
+  
+  .edit, .delete{
+    width: 45px;
+    padding: 4px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .edit{
+    background-color: rgb(97, 160, 2);
+    margin-right: 5px;
+    }
+  
+  .delete{
+      background-color: red;
+   }
+  
+  @media screen and (min-width: 1025px) {
+    .container{
+      width: 85%;
+    }
+    .title{
+      font-size: 7rem;
+    }
+    
+    #text-box{
+      padding: 10px 20px;
+      font-size: 2.2rem;
+    }
+    
+    #add-butn{
+      width: 60px;
+    margin-left: 10px;
+    font-size: 18px;
+    }
+  }
